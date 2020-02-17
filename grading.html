@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Webtechnology</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="genStyle.css">
+    <link rel="stylesheet" type="text/css" href="grading.css">
+    <style></style>
+
+
+</head>
+
+
+<body class="layout">
+
+    <header>
+        <h1 class="home-title">Webtechnology Course Page
+            <img class="uu-left" src="uulogo.png" alt="UU logo">
+            <img class="uu-right" src="uulogo.png" alt="UU logo">
+        </h1>
+    </header>
+
+    <nav>
+        <ul class="navBar">
+            <li>
+                <a href="index.html"> <strong>Home</strong> </a>
+            </li>
+            <li>
+                <a href="schedule.html"> <strong>Schedule</strong> </a>
+            </li>
+            <li>
+                <a href="literature.html"> <strong>Literature</strong> </a>
+            </li>
+            <li>
+                <a href="workforms.html"> <strong>Work forms</strong> </a>
+            </li>
+            <li>
+                <a class="huidig" href="grading.html"> <strong>Grading</strong> </a>
+            </li>
+            <li>
+                <a href="contact.html"> <strong>Contact</strong> </a>
+            </li>
+        </ul>
+    </nav>
+
+    <article class="article">
+        <section class="section1">
+            <h1>Grading</h1>
+            <p>
+                This course consists of five grading moments. The course grade is computed as follows:
+            </p>
+            <ul>
+                <li>Assignment 1: 10%</li><br></br>
+                <li>Assignment 2: 15%</li><br></br>
+                <li>Assignment 3: 25%</li><br></br>
+                <li>Midterm : 25%</li><br></br>
+                <li>Final : 25%</li><br></br>
+            </ul>
+        </section>
+
+        <section class="section2">
+            <h2>Minimal requirements for the retake exam</h2>
+            <p>
+                To pass the course you need to:
+            </p>
+            <ul>
+                <li> Submit all assignments</li><br></br>
+                <li> Get an average assignment grade of 4.0 or higher</li><br></br>
+                <li> Take both exams</li><br></br>
+                <li> Get an average exam grade of 4.0 or more</li><br></br>
+                <br></br>
+            </ul>
+
+        </section>
+    </article>
+
+    <section class="section3">
+        <h3> Calculate your average grade</h3>
+        <script type="text/javascript" src="calculateGrading.js"></script>
+
+        Grade Assignment 1: <input type="number" placeholder="1.0" required step="0.1" pattern="[0.0-10.0]" id="grAs1"><br></br>
+        Grade Assignment 2: <input type="number" placeholder="1.0" required step="0.1" pattern="[0.0-10.0]" id="grAs2"><br></br>
+        Grade Assignment 3: <input type="number" placeholder="1.0" required step="0.1" pattern="[0.0-10.0]" id="grAs3"><br></br>
+        Grade Midterm: <input type="number" placeholder="1.0" required step="0.1" pattern="[0.0-10.0]" id="grMid"><br></br>
+        Grade Final: <input type="number" placeholder="1.0" required step="0.1" pattern="[0.0-10.0]" id="grFin"><br></br>
+
+        <p id="emptyString"></p>
+        <input type="button" onclick="calcGrade()" value="Submit"></button>
+
+
+    </section>
+
+    <footer class="footer1">
+        <p>Copyright Utrecht University INFOB2WT 2020 ©</p>
+    </footer>
+
+
+
+</body>
+
+
+</html>

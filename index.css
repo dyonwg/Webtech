@@ -1,145 +1,159 @@
 /* Title of home page*/
-header{
-	background-color:black;
-	padding: 30px;
+
+header {
+    background-color: white;
+    padding: 30px;
 }
 
-.home-title{
-	text-align: center;
-	color: white;
-	font-family: Arial;
-	font-size: 40px;
-	margin:0;
+.home-title {
+    text-align: center;
+    color: black;
+    font-family: Arial;
+    font-size: 40px;
+    margin: 0;
 }
+
 
 /* UU logos*/
-.uu-left{
-	width:65px;
-	float:left;
+
+.uu-left {
+    width: 65px;
+    float: left;
 }
 
-.uu-right{
-	width:65px;
-	float:right;
+.uu-right {
+    width: 65px;
+    float: right;
 }
+
 
 /* Navigation bar*/
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #4484CE;
+    background-color: black;
     text-decoration: none;
 }
 
 li {
     float: left;
-  }
+}
 
 li a {
     display: block;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
     color: white;
-	font-family: Verdana;
-	font-size: 16px;
+    font-family: Verdana;
+    font-size: 16px;
     text-align: center;
     padding: 13px 85.9px;
-	text-decoration: none;
-  }
+    text-decoration: none;
+}
 
-body{
-	margin:0;
-	padding:0;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 li a:hover {
-	background: black;
-  }
+    color: #FFEB00;
 }
+
+li a.huidig {
+    background-color: #808000;
+    color: white;
+}
+
 
 /* Information block 1 */
-article{
+
+article {}
+
+article {
+    display: block;
+    padding: 10px;
+    width: 700px;
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: white;
 }
 
-article{
-	display: block;
-	padding: 10px;
-	width: 700px;
-	margin-left: 1%;
-	margin-top:  1%;
-	float: left;
-	border-style: solid;
-	border-width: 1px;
-    border-color: black;
-	background-color: white;
- }
 
 /* Information block 2 */
-.aside1{
-	display: block;
-	padding: 10px;
-	width: 700px;
-	height: 442px;
-	margin-right: 1%;
-	margin-top: 1%;
-	float: right;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	background-color: white;
+
+.aside1 {
+    display: block;
+    padding: 10px;
+    width: 700px;
+    height: 442px;
+    margin-right: 1%;
+    margin-top: 1%;
+    float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: white;
 }
 
-.section1{
-	display: block;
-	padding: 10px;
-	width: 700px;
-	height: 190px;
-	margin-left: 1%;
-	margin-top: 1%;
-	float: left;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	background-color: white;
+.section1 {
+    display: block;
+    padding: 10px;
+    width: 700px;
+    height: 190px;
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: white;
 }
 
-.message{
-	display: block;
-	padding: 3px;
-	width: auto;
-	height: auto;
-	margin-left: 1%;
-	margin-top: 1%;
-	float: left;
-	border-style: ridge;
-	border-color: black;
+.message {
+    display: block;
+    padding: 3px;
+    width: auto;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+    border-style: ridge;
+    border-color: black;
 }
 
-.sergey{
-	width: 45px;
-	height: 45px;
-	padding: 5px;
-	float: right;
-	margin-top: -20px;
+.sergey {
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    float: right;
+    margin-top: -20px;
 }
+
 
 /* Footer */
-.footer1{
-	display: block;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 1500px;
-	margin-right: 1%;
-	margin-left: 1%;
-	margin-bottom: 1%;
-	text-align: center;
-	position: fixed;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	background-color: white;
+
+.footer1 {
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 1500px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    position: fixed;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: white;
 }
